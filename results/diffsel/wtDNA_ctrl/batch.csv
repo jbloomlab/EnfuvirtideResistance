@@ -1,0 +1,4 @@
+group,name,sel,mock,mds_names,err
+T20-8ug,rep2b,mut-virus-rep2b-T20-8ug,mut-virus-rep2b,T20-8ug-rep2b,wt-DNA-rep2
+T20-8ug,rep3b,mut-virus-rep3b-T20-8ug,mut-virus-rep3b,T20-8ug-rep3b,wt-DNA-rep3
+T20-8ug,rep1b,mut-virus-rep1b-T20-8ug,mut-virus-rep1b,T20-8ug-rep1b,wt-DNA-rep1

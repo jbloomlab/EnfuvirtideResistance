@@ -1,0 +1,74 @@
+2018-10-25 18:48:29,423 - INFO - Beginning execution of dms2_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2018/EnfuvirtideResistance
+
+2018-10-25 18:48:29,423 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/T20-8ug-rep2b.log
+2018-10-25 18:48:29,429 - INFO - Version information:
+	Time and date: Thu Oct 25 18:48:29 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.3.0
+	Bio version: 1.72
+	HTSeq version: 0.11.0
+	pandas version: 0.23.4
+	numpy version: 1.15.1
+	IPython version: 6.5.0
+	jupyter version: 1.0.0
+	matplotlib version: 3.0.0
+	plotnine version: 0.5.0
+	natsort version: 5.4.1
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+	regex version: 2.4.146
+	umi_tools version unknown
+
+2018-10-25 18:48:29,429 - INFO - Parsed the following arguments:
+	outdir = ./results/diffsel/wtDNA_ctrl
+	ncpus = 5
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	excludestop = yes
+	pseudocount = 5.0
+	mincount = 0
+	name = T20-8ug-rep2b
+	sel = mut-virus-rep2b-T20-8ug
+	mock = mut-virus-rep2b
+	err = wt-DNA-rep2
+
+2018-10-25 18:48:29,433 - INFO - Reading selected sample counts from mut-virus-rep2b-T20-8ug
+2018-10-25 18:48:29,461 - INFO - Reading mock-selected sample counts from mut-virus-rep2b
+2018-10-25 18:48:29,470 - INFO - Reading error-control sample counts from wt-DNA-rep2
+2018-10-25 18:48:29,480 - INFO - Computing mutdiffsel...
+2018-10-25 18:48:32,791 - INFO - Mutations with largest mutdiffsel:
+site wildtype mutation  mutdiffsel
+551        Q        K        7.08
+551        Q        W        6.27
+548        I        Y        6.04
+552        Q        R        5.85
+548        I        C        5.72
+552        Q        K        5.28
+551        Q        R        4.94
+556        L        R        4.68
+548        I        H        4.58
+548        I        W        4.47
+
+2018-10-25 18:48:32,792 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/T20-8ug-rep2b_mutdiffsel.csv
+2018-10-25 18:48:32,830 - INFO - Computing sitediffsel...
+2018-10-25 18:48:32,857 - INFO - Sites with largest absolute sitediffsel:
+site  abs_diffsel  positive_diffsel  negative_diffsel  max_diffsel  min_diffsel
+551        54.43             53.53             -0.90         7.08        -0.45
+548        47.51             45.44             -2.07         6.04        -1.36
+406        39.84              2.62            -37.22         1.35        -3.48
+552        36.70             36.46             -0.24         5.85        -0.24
+399        33.69              3.73            -29.95         2.14        -3.31
+649        33.02              0.00            -33.02         0.00        -3.51
+232        32.58              4.72            -27.87         2.62        -2.95
+ 49        32.11              3.80            -28.32         1.72        -3.04
+ 31        32.04              2.17            -29.87         0.82        -3.19
+169        31.93             13.65            -18.28         3.24        -3.04
+
+2018-10-25 18:48:32,857 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/T20-8ug-rep2b_sitediffsel.csv
+2018-10-25 18:48:32,869 - INFO - Successful completion of dms2_diffsel

@@ -1,0 +1,77 @@
+2018-10-25 18:49:54,584 - INFO - Beginning execution of dms2_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2018/EnfuvirtideResistance
+
+2018-10-25 18:49:54,584 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/T20-8ug-rep1b.log
+2018-10-25 18:49:54,590 - INFO - Version information:
+	Time and date: Thu Oct 25 18:49:54 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.3.0
+	Bio version: 1.72
+	HTSeq version: 0.11.0
+	pandas version: 0.23.4
+	numpy version: 1.15.1
+	IPython version: 6.5.0
+	jupyter version: 1.0.0
+	matplotlib version: 3.0.0
+	plotnine version: 0.5.0
+	natsort version: 5.4.1
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+	regex version: 2.4.146
+	umi_tools version unknown
+
+2018-10-25 18:49:54,590 - INFO - Parsed the following arguments:
+	outdir = ./results/fracsurviveaboveavg
+	ncpus = 5
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	aboveavg = yes
+	excludestop = yes
+	pseudocount = 5.0
+	mincount = 0
+	name = T20-8ug-rep1b
+	sel = mut-virus-rep1b-T20-8ug
+	mock = mut-virus-rep1b
+	libfracsurvive = 0.007777778000000002
+	err = wt-DNA-rep1
+
+2018-10-25 18:49:54,593 - INFO - Reading selected sample counts from mut-virus-rep1b-T20-8ug
+2018-10-25 18:49:54,618 - INFO - Reading mock-selected sample counts from mut-virus-rep1b
+2018-10-25 18:49:54,626 - INFO - Reading error-control sample counts from wt-DNA-rep1
+2018-10-25 18:49:54,634 - INFO - Computing fracsurvive for each mutation...
+2018-10-25 18:49:54,634 - INFO - These are the fracsurvive **above** the library average of 0.007777778000000002
+2018-10-25 18:49:57,852 - INFO - Mutations with largest mutfracsurvive:
+site wildtype mutation  mutfracsurvive
+ 552        Q        R            0.46
+ 551        Q        K            0.32
+ 551        Q        R            0.27
+ 548        I        Y            0.23
+ 556        L        R            0.14
+ 548        I        H            0.13
+ 548        I        W            0.13
+ 551        Q        T            0.13
+184f        N        E            0.11
+ 551        Q        W            0.10
+
+2018-10-25 18:49:57,853 - INFO - Writing to ./results/fracsurviveaboveavg/T20-8ug-rep1b_mutfracsurvive.csv
+2018-10-25 18:49:57,889 - INFO - Computing sitefracsurvive...
+2018-10-25 18:49:57,908 - INFO - Sites with largest avgfracsurvive:
+site  avgfracsurvive  maxfracsurvive
+ 551            0.05            0.32
+ 548            0.04            0.23
+ 552            0.04            0.46
+ 556            0.01            0.14
+ 560            0.01            0.10
+184f            0.01            0.11
+ 429            0.01            0.06
+ 430            0.01            0.07
+ 207            0.01            0.08
+ 544            0.01            0.08
+
+2018-10-25 18:49:57,908 - INFO - Writing to ./results/fracsurviveaboveavg/T20-8ug-rep1b_sitefracsurvive.csv
+2018-10-25 18:49:57,914 - INFO - Successful completion of dms2_fracsurvive

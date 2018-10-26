@@ -1,0 +1,4 @@
+group,name,sel,mock,err,mds_names,libfracsurvive
+T20-8ug,rep2b,mut-virus-rep2b-T20-8ug,mut-virus-rep2b,wt-DNA-rep2,T20-8ug-rep2b,0.0015095339999999999
+T20-8ug,rep3b,mut-virus-rep3b-T20-8ug,mut-virus-rep3b,wt-DNA-rep3,T20-8ug-rep3b,0.0043568470000000005
+T20-8ug,rep1b,mut-virus-rep1b-T20-8ug,mut-virus-rep1b,wt-DNA-rep1,T20-8ug-rep1b,0.007777778000000001
