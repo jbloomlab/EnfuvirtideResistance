@@ -1,8 +1,8 @@
-2018-10-26 09:49:53,410 - INFO - Beginning execution of dms2_batch_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2018/EnfuvirtideResistance
+2018-11-15 11:40:53,955 - INFO - Beginning execution of dms2_batch_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2018/EnfuvirtideResistance
 
-2018-10-26 09:49:53,410 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/summary.log
-2018-10-26 09:49:53,420 - INFO - Version information:
-	Time and date: Fri Oct 26 09:49:53 2018
+2018-11-15 11:40:53,956 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/summary.log
+2018-11-15 11:40:53,968 - INFO - Version information:
+	Time and date: Thu Nov 15 11:40:53 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.3.0
@@ -21,10 +21,10 @@
 	phydmslib version: 2.3.1
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
-	regex version: 2.4.146
+	regex version: 2.4.148
 	umi_tools version unknown
 
-2018-10-26 09:49:53,420 - INFO - Parsed the following arguments:
+2018-11-15 11:40:53,968 - INFO - Parsed the following arguments:
 	outdir = ./results/diffsel/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -36,12 +36,12 @@
 	batchfile = ./results/diffsel/wtDNA_ctrl/batch.csv
 	summaryprefix = summary
 
-2018-10-26 09:49:53,420 - INFO - Parsing info from ./results/diffsel/wtDNA_ctrl/batch.csv
-2018-10-26 09:49:53,448 - INFO - Read the following sample information:
+2018-11-15 11:40:53,968 - INFO - Parsing info from ./results/diffsel/wtDNA_ctrl/batch.csv
+2018-11-15 11:40:53,998 - INFO - Read the following sample information:
 group,name,sel,mock,mds_names,err
 T20-8ug,rep2b,mut-virus-rep2b-T20-8ug,mut-virus-rep2b,T20-8ug-rep2b,wt-DNA-rep2
 T20-8ug,rep3b,mut-virus-rep3b-T20-8ug,mut-virus-rep3b,T20-8ug-rep3b,wt-DNA-rep3
 T20-8ug,rep1b,mut-virus-rep1b-T20-8ug,mut-virus-rep1b,T20-8ug-rep1b,wt-DNA-rep1
 
 
-2018-10-26 09:49:53,459 - INFO - Output summary files already exist and '--use_existing' is 'yes', so exiting with no further action.
+2018-11-15 11:40:54,017 - INFO - Output summary files already exist and '--use_existing' is 'yes', so exiting with no further action.
